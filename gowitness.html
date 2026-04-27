@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - HRJ Software LLC</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            color: #222;
+        }
+        h1 small {
+            font-weight: normal;
+            color: #666;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        .contact-email {
+            unicode-bidi: bidi-override;
+            direction: rtl;
+            cursor: pointer;
+            color: #0066cc;
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy <small>Policy</small></h1>
+
+    <h2>Privacy Policy</h2>
+
+    <p>This Privacy Policy aims to explain why HRJ Software LLC collects particular information and how we will protect your personal privacy within our web site and applications. The following discloses our information gathering and dissemination practices.</p>
+
+    <p>In order to fully understand your rights we encourage you to read this Privacy Policy. HRJ Software LLC reserves the right at any time and without notice to change this Privacy Policy simply by posting such changes on this page. Any such change will be effective immediately upon posting.</p>
+
+    <p>Because we want to demonstrate our commitment to your privacy, this Privacy Policy notifies you of: what personally identifiable information of yours is collected; who collects such information; how such information is used; with whom your information may be shared; what choices you have regarding collection, use and distribution of your information; what kind of security procedures are in place to protect the loss, misuse or alteration of information under our control; and, how you can correct any inaccuracies in your information.</p>
+
+    <p>Questions regarding this statement should be directed to HRJ Software LLC by sending an e-mail to <span id="contact-email" class="contact-email"></span>. Please reference this Privacy Policy in your subject line.</p>
+
+    <footer>
+        &copy; HRJ Software LLC
+    </footer>
+
+    <script>
+        (function() {
+            var parts = ['info', 'hrjsoftware', 'com'];
+            var addr = parts[0] + '\u0040' + parts[1] + '\u002e' + parts[2];
+            var el = document.getElementById('contact-email');
+            var link = document.createElement('a');
+            link.href = 'mai' + 'lto:' + addr;
+            link.textContent = addr;
+            el.appendChild(link);
+        })();
+    </script>
+
+</body>
+</html>
