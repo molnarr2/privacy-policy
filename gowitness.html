@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - HRJ Software LLC</title>
+    <title>Account Deletion - GoWitness</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -19,19 +19,15 @@
             padding-bottom: 10px;
             color: #222;
         }
-        h1 small {
-            font-weight: normal;
-            color: #666;
+        h2 {
+            color: #222;
+            margin-top: 30px;
         }
-        p {
-            margin-bottom: 1em;
+        p, li {
+            margin-bottom: 0.5em;
         }
-        .contact-email {
-            unicode-bidi: bidi-override;
-            direction: rtl;
-            cursor: pointer;
-            color: #0066cc;
-            text-decoration: underline;
+        ol, ul {
+            padding-left: 20px;
         }
         footer {
             margin-top: 40px;
@@ -44,33 +40,41 @@
 </head>
 <body>
 
-    <h1>Privacy <small>Policy</small></h1>
+    <h1>How to Request Account Deletion</h1>
 
-    <h2>Privacy Policy</h2>
+    <p>If you would like to delete your GoWitness account and associated data, please follow these steps:</p>
 
-    <p>This Privacy Policy aims to explain why HRJ Software LLC collects particular information and how we will protect your personal privacy within our web site and applications. The following discloses our information gathering and dissemination practices.</p>
+    <ol>
+        <li><strong>Send us a request</strong> — Use the contact form below or email us directly at <a href="mailto:info@hrjsoftware.com">info@hrjsoftware.com</a>. Include the email address associated with your GoWitness account.</li>
+        <li><strong>Verification</strong> — We will verify your identity to protect your account from unauthorized deletion requests.</li>
+        <li><strong>Deletion processing</strong> — Once verified, your account and data will be deleted within 30 days.</li>
+        <li><strong>Confirmation</strong> — You will receive an email confirming that your account and data have been deleted.</li>
+    </ol>
 
-    <p>In order to fully understand your rights we encourage you to read this Privacy Policy. HRJ Software LLC reserves the right at any time and without notice to change this Privacy Policy simply by posting such changes on this page. Any such change will be effective immediately upon posting.</p>
+    <h2>Data That Will Be Deleted</h2>
 
-    <p>Because we want to demonstrate our commitment to your privacy, this Privacy Policy notifies you of: what personally identifiable information of yours is collected; who collects such information; how such information is used; with whom your information may be shared; what choices you have regarding collection, use and distribution of your information; what kind of security procedures are in place to protect the loss, misuse or alteration of information under our control; and, how you can correct any inaccuracies in your information.</p>
+    <p>Upon processing your account deletion request, the following data will be permanently deleted:</p>
 
-    <p>Questions regarding this statement should be directed to HRJ Software LLC by sending an e-mail to <span id="contact-email" class="contact-email"></span>. Please reference this Privacy Policy in your subject line.</p>
+    <ul>
+        <li>Account information (name, email address, phone number)</li>
+        <li>User-generated content and submissions</li>
+        <li>Usage data and app activity history</li>
+        <li>Preferences and settings</li>
+    </ul>
+
+    <h2>Data That May Be Retained</h2>
+
+    <p>Certain data may be retained for a limited period after account deletion for the following reasons:</p>
+
+    <ul>
+        <li><strong>Transaction and billing records</strong> — Retained for up to 90 days to comply with financial and tax regulations.</li>
+        <li><strong>Anonymized and aggregated analytics data</strong> — Data that has been de-identified and cannot be linked back to you may be retained indefinitely for service improvement.</li>
+        <li><strong>Legal compliance records</strong> — Data required by law may be retained as mandated by applicable regulations.</li>
+    </ul>
 
     <footer>
-        &copy; HRJ Software LLC
+        &copy; HRJ Software LLC | Contact: <a href="mailto:info@hrjsoftware.com">info@hrjsoftware.com</a>
     </footer>
-
-    <script>
-        (function() {
-            var parts = ['info', 'hrjsoftware', 'com'];
-            var addr = parts[0] + '\u0040' + parts[1] + '\u002e' + parts[2];
-            var el = document.getElementById('contact-email');
-            var link = document.createElement('a');
-            link.href = 'mai' + 'lto:' + addr;
-            link.textContent = addr;
-            el.appendChild(link);
-        })();
-    </script>
 
 </body>
 </html>
